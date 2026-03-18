@@ -55,7 +55,6 @@ local function SendWebhook(status)
 end
 
 -- [[ PURE DRAWING AUTH - PRINT DETECTOR VERSION ]]
-
 local Drawing = Drawing or draw
 local HWID_SERVER = "https://frozen-amalie-bothwid-e2f2e429.koyeb.app/check?hwid="
 local CORRECT_KEY = "333"
