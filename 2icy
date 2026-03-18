@@ -226,7 +226,6 @@ game.Players.LocalPlayer:Kick("Not whitelisted. HWID: " .. hwid)
             
             if setclipboard then
                 setclipboard(hwid)
-                })
             end
         end
     end
