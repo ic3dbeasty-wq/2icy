@@ -227,10 +227,6 @@ game.Players.LocalPlayer:Kick("Not whitelisted. HWID: " .. hwid)
             
             if setclipboard then
                 setclipboard(hwid)
-                game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "HWID",
-                    Text = "Copied to clipboard!",
-                    Duration = 3
                 })
             end
         end
