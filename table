@@ -18,8 +18,20 @@ shared.twoicy = {
             ['[Knife]'] = "Golden Age Tanto",
         },
     },
-    ['char'] = {
+    ['beam changer'] = { -- hood customs
         ['enabled'] = false,
+        ['DoubleBarrel'] = "Beta",
+        ['Revolver'] = "Beta",
+        ['Shotgun'] = "Beta",
+        ['SMG'] = "Beta",
+        ['TacticalShotgun'] = "Beta",
+    },
+    ['fake subscription'] = { -- hood customs
+        ['enabled'] = false,
+        ['streak'] = 53,
+    },
+    ['char'] = {
+        ['enabled'] = false, -- have same body parts
         ['username'] = "Roblox",
         ['headless'] = false,
         ['remove face accessories'] = false,
@@ -71,8 +83,8 @@ shared.twoicy = {
     },
     ['silent aimbot'] = {
         ['enabled'] = true,
-        ['mode'] = 'Toggle', -- Toggle/Hold
-        ['hitpart'] = 'Head', -- "Any R15 Part",  "Closest Part",  "Closest Point",
+        ['mode'] = 'Toggle',
+        ['hitpart'] = 'Head',
         ['use prediction'] = false,
         ['prediction'] = {
             ['x'] = 0.133,
@@ -82,7 +94,7 @@ shared.twoicy = {
         ['fov'] = {
             ['enabled'] = true,
             ['visible'] = true,
-            ['mode'] = '3D', -- 3D/2D
+            ['mode'] = '3D',
             ['active color'] = Color3.fromRGB(0, 17, 255),
             ['size'] = {
                 ['x'] = 500,
@@ -97,8 +109,8 @@ shared.twoicy = {
     },
     ['camera aimbot'] = {
         ['enabled'] = false,
-        ['mode'] = 'Toggle', -- Toggle/Hold
-        ['hitpart'] = 'Closest Part', -- "Any R15 Part",  "Closest Part",  "Closest Point",
+        ['mode'] = 'Toggle',
+        ['hitpart'] = 'Closest Part',
         ['smoothing'] = {
             ['x'] = 40,
             ['y'] = 40,
@@ -128,7 +140,7 @@ shared.twoicy = {
     },
     ['trigger bot'] = {
         ['enabled'] = false,
-        ['mode'] = 'Hold', -- Toggle/Hold
+        ['mode'] = 'Hold',
         ['delay'] = 0.01,
         ['require target'] = true,
         ['specific weapons'] = {
@@ -159,8 +171,8 @@ shared.twoicy = {
         ['enabled'] = true,
         ['thickness'] = 2.2,
         ['transparency'] = 99,
-        ['vulnerable'] = Color3.fromRGB(255, 85, 127),
-        ['invulnerable'] = Color3.fromRGB(255, 255, 0),
+        ['killable'] = Color3.fromRGB(255, 85, 127),
+        ['nonkillable'] = Color3.fromRGB(150, 150, 150),
     },
     ['rapid fire'] = {
         ['enabled'] = false,
@@ -184,12 +196,12 @@ shared.twoicy = {
         ['use display name'] = false,
         ['name above'] = false,
     },
-    ['spiderman'] = { -- inspired by glory
+    ['spiderman'] = {
         ['enabled'] = false,
         ['jumppower'] = 50,
         ['knifejumppower'] = 60,
     },
-    ['super jump'] = { -- also inspired by glory
+    ['super jump'] = {
         ['enabled'] = true,
         ['jump power'] = 100,
     },
